@@ -1,7 +1,7 @@
 const router = require("express").Router();
 
 router.post("/", (req, res) => {
-  res.send("post to uploads route");
+  res.send("post request was received");
 });
 
 module.exports = router;
